@@ -1,6 +1,11 @@
 import React from 'react';
 import poster from './poster1.jpg';
 import Button from './components/button/Button';
+import InfoContent from './components/info-content/InfoContent';
+import SimilarTitles from './components/similar-titles/SimilarTitles';
+
+import Description from './content/description';
+
 import './App.css';
 
 function App() {
@@ -9,7 +14,8 @@ function App() {
       <nav className="Nav">
         <div className="inner">
           <div className="logo">
-            <i class="material-icons">tv</i> MOVIEs APP
+            <i className="material-icons">tv</i>
+            <span>MOVIES APP</span>/<mark>La La Land</mark>
           </div>
 
           <div className="menu">
@@ -88,24 +94,9 @@ function App() {
 
         <section>
           <h4>Description</h4>
-          <p>
-            La La Land is a 2016 American romantic musical film written and
-            directed by Damien Chazelle. It stars Ryan Gosling as a jazz pianist
-            and Emma Stone as an aspiring actress, who meet and fall in love
-            while pursuing their dreams in Los Angeles. Having been fond of
-            musicals during his time as a drummer, Chazelle first conceptualised
-            the film alongside Justin Hurwitz while attending Harvard University
-            together. Moving to Los Angeles in 2010, Chazelle wrote the
-            screenplay but did not find a studio willing to finance the
-            production without changes to his design. Following the success of
-            his 2014 film Whiplash, the project was picked up by Summit
-            Entertainment. Filming took place in Los Angeles from August to
-            September 2015, with the film's score composed by Hurwitz and the
-            dance choreography by Mandy Moore. La La Land premiered at the 73rd
-            Venice International Film Festival on August 31, 2016, and was
-            released in the United States on December 9, 2016. It grossed $446
-            million worldwide against a production budget of $30 million.
-          </p>
+          <InfoContent content={Description} />
+          <br />
+          <SimilarTitles />
         </section>
       </div>
     </div>

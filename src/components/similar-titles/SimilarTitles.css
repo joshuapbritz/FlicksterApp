@@ -1,0 +1,50 @@
+.SimilarTitlesWrapper {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+  grid-gap: 10px;
+  padding: 70px 0 50px 0;
+}
+
+.SimilarTitlesWrapper .SimilarTitlesTitle {
+  position: relative;
+}
+
+.SimilarTitlesWrapper .SimilarTitlesTitle h4 {
+}
+
+.SimilarTitlesWrapper .SimilarTitles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+}
+
+.SimilarTitlesWrapper .SimilarTitles .poster {
+  display: block;
+  cursor: pointer;
+  transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+}
+
+.SimilarTitlesWrapper .SimilarTitles .poster img {
+  width: 100%;
+  height: auto;
+  will-change: transform;
+  transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+}
+
+.SimilarTitlesWrapper .SimilarTitles:hover .poster {
+    opacity: 0.5;
+}
+
+.SimilarTitlesWrapper .SimilarTitles .poster:hover {
+    opacity: 1;
+}
+
+.SimilarTitlesWrapper .SimilarTitles .poster:hover img {
+  /* transform: rotate(-3deg); */
+  transform: translateY(-10px);
+}

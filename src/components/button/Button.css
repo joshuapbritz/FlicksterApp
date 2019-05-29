@@ -16,7 +16,28 @@ button.button span {
   font-size: 0.8rem;
 }
 
+button.button i {
+  transform-origin: center center;
+  will-change: transform;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+  transform: rotate(0deg);
+}
+
+button.button:hover i {
+  transform: rotate(-15deg);
+}
+
 button.button.outlined {
   background-color: transparent;
   color: hsl(344, 100%, 63%);
+}
+
+button.button.small {
+  height: 30px;
+}
+
+button.button:active {
+  background-color: hsl(344, 100%, 50%);
+  border-color: hsl(344, 100%, 50%);
+  color: hsl(208, 100%, 97%);
 }

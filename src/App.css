@@ -4,8 +4,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: hsla(220, 78%, 11%, 0.5);
+  background-color: hsla(220, 78%, 11%, 0.9);
   color: aliceblue;
+  z-index: 999;
 }
 
 .Nav .inner {
@@ -31,6 +32,16 @@
 .Nav .inner .logo i {
   margin-right: 10px;
   font-size: 2rem;
+}
+
+.Nav .inner .logo span {
+  padding-right: 5px;
+}
+
+.Nav .inner .logo mark {
+  background-color: transparent;
+  color: hsl(211, 42%, 68%);
+  padding-left: 5px;
 }
 
 .Nav .inner .menu {
@@ -140,4 +151,9 @@
 
 .App .inner-wrapper article .actions button {
   margin-left: 20px;
+}
+
+.App .inner-wrapper section {
+  border-top: solid 2px hsla(210, 100%, 97%, 0.2);
+  padding-top: 30px;
 }
