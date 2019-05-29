@@ -1,16 +1,21 @@
 .overflow-wrapper {
   width: 100%;
   height: 150px;
-  overflow: hidden;
-  padding-bottom: 50px;
+  /* overflow: hidden; */
+  /* padding-bottom: 50px; */
   position: relative;
   will-change: height;
   transition: height cubic-bezier(0.165, 0.84, 0.44, 1) 600ms;
 }
 
+.overflow-wrapper p {
+    height: 100%;
+    overflow: hidden;
+}
+
 .overflow-wrapper .button-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
   width: 100%;
   height: 30px;
@@ -21,7 +26,7 @@
 .overflow-wrapper::after {
   content: '';
   display: block;
-  height: 50px;
+  height: 80px;
   width: 100%;
   z-index: 10;
   position: absolute;
@@ -29,7 +34,7 @@
   left: 0;
   background: linear-gradient(
     0deg,
-    rgba(6, 20, 49, 1) 40px,
+    rgba(6, 20, 49, 1) 10%,
     rgba(0, 0, 0, 0) 100%
   );
   will-change: opacity;
@@ -38,5 +43,4 @@
 
 .overflow-wrapper.show::after {
   opacity: 0;
-  transition: opacity cubic-bezier(0.165, 0.84, 0.44, 1) 500ms 600ms;
 }

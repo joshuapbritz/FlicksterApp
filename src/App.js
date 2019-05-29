@@ -15,7 +15,7 @@ function App() {
         <div className="inner">
           <div className="logo">
             <i className="material-icons">tv</i>
-            <span>MOVIES APP</span>/<mark>La La Land</mark>
+            <a href="/">MOVIES APP</a>/<mark>La La Land</mark>
           </div>
 
           <div className="menu">
@@ -99,6 +99,10 @@ function App() {
           <SimilarTitles />
         </section>
       </div>
+
+      <footer className="Footer">
+        <div className="inner">&copy; Movie App 2019</div>
+      </footer>
     </div>
   );
 }
