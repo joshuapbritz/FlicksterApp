@@ -15,7 +15,7 @@ function App() {
         <div className="inner">
           <div className="logo">
             <i className="material-icons">tv</i>
-            <a href="/">MOVIES APP</a>/<mark>La La Land</mark>
+            <a href="/">Flickster</a>/<mark>La La Land</mark>
           </div>
 
           <div className="menu">
@@ -69,8 +69,8 @@ function App() {
                       <strong>Producers:</strong>
                     </td>
                     <td>
-                      Gary Gilbert, Marc E. Platt, Jordan Horowitz, Fred Berger,
-                      Mike Jackson
+                      Gary Gilbert, Marc E. Platt, Jordan Horowitz, Fred
+                      Berger, Mike Jackson
                     </td>
                   </tr>
                 </tbody>
@@ -101,7 +101,7 @@ function App() {
       </div>
 
       <footer className="Footer">
-        <div className="inner">&copy; Movie App 2019</div>
+        <div className="inner">&copy; Flickster App 2019</div>
       </footer>
     </div>
   );
