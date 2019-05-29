@@ -4,9 +4,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: hsla(220, 78%, 11%, 0.9);
+  background-color: hsla(220, 78%, 11%, 0.8);
   color: aliceblue;
   z-index: 999;
+  backdrop-filter: blur(10px);
 }
 
 .Nav .inner, .Footer .inner {
