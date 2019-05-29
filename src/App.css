@@ -1,33 +1,143 @@
-.App {
-  text-align: center;
+.Nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: hsla(220, 78%, 11%, 0.5);
+  color: aliceblue;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav .inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.Nav .inner .logo {
+  height: 100%;
+  line-height: 60px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.Nav .inner .logo i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.Nav .inner .menu {
+  width: auto;
+  height: 60px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.Nav .inner .menu i {
+  transform: rotate(180deg);
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nav .inner .menu:hover {
+  color: hsl(344, 100%, 63%);
+}
+
+.App {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(221, 76%, 11%);
+  overflow: hidden;
+}
+
+.App .inner-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 'image content' 'description description';
+
+  grid-gap: 50px 30px;
+  padding: 130px 0 70px 0;
+}
+
+.App .inner-wrapper figure {
+  grid-area: image;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.App .inner-wrapper figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px 0px rgba(252, 249, 242, 0.3);
+}
+
+.App .inner-wrapper section {
+  grid-area: description;
+}
+
+.genre {
+  color: hsla(210, 100%, 97%, 0.9);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.ratings {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  color: hsl(46, 100%, 50%);
+}
+
+.App .inner-wrapper article {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  grid-template-rows: 1fr 60px;
+}
+
+.App .inner-wrapper article .info {
+  color: hsla(210, 100%, 97%, 0.7);
+}
+
+.App .inner-wrapper article .info table {
+  width: 100%;
+  max-width: 650px;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+.App .inner-wrapper article .info td {
+  vertical-align: top;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.App .inner-wrapper article .actions {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.App .inner-wrapper article .actions button {
+  margin-left: 20px;
 }

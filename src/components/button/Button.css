@@ -1,0 +1,22 @@
+button.button {
+  background-color: hsl(344, 100%, 63%);
+  border: solid 2px hsl(344, 100%, 63%);
+  height: 45px;
+  color: hsl(208, 100%, 97%);
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button.button span {
+  display: block;
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
+
+button.button.outlined {
+  background-color: transparent;
+  color: hsl(344, 100%, 63%);
+}
