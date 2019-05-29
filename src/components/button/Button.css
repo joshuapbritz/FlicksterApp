@@ -1,4 +1,5 @@
-button.button {
+button.button,
+a.button {
   background-color: hsl(344, 100%, 63%);
   border: solid 2px hsl(344, 100%, 63%);
   height: 45px;
@@ -8,35 +9,42 @@ button.button {
   align-items: center;
   border-radius: 25px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-button.button span {
+button.button span,
+a.button span {
   display: block;
   padding: 0 10px;
   font-size: 0.8rem;
 }
 
-button.button i {
+button.button i,
+a.button i {
   transform-origin: center center;
   will-change: transform;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
   transform: rotate(0deg);
 }
 
-button.button:hover i {
+button.button:hover i,
+a.button:hover i {
   transform: rotate(-15deg);
 }
 
-button.button.outlined {
+button.button.outlined,
+a.button.outlined {
   background-color: transparent;
   color: hsl(344, 100%, 63%);
 }
 
-button.button.small {
+button.button.small,
+a.button.small {
   height: 30px;
 }
 
-button.button:active {
+button.button:active,
+a.button:active {
   background-color: hsl(344, 100%, 50%);
   border-color: hsl(344, 100%, 50%);
   color: hsl(208, 100%, 97%);

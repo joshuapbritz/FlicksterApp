@@ -1,0 +1,39 @@
+.Titles {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+  grid-gap: 10px;
+  padding: 70px 0 50px 0;
+}
+
+.Titles .TitlesTitle {
+  position: relative;
+}
+
+.Titles .TitlesRow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+}
+
+.Titles .TitlesRow .poster {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+}
+
+.Titles .TitlesRow .poster img {
+  width: 100%;
+  height: auto;
+  will-change: transform;
+  transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+}
+
+.Titles .TitlesRow .poster:hover img {
+    transform: scale(1.05);
+}

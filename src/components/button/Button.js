@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Button.css';
 
-function Button({ label, icon, outlined, small }) {
+function Button({ label, icon, outlined, small, to }) {
   if (outlined === undefined) {
     outlined = false;
   }
@@ -11,14 +12,30 @@ function Button({ label, icon, outlined, small }) {
     small = false;
   }
 
-  return (
-    <button
-      className={`button${outlined ? ' outlined' : ''}${small ? ' small' : ''}`}
-    >
-      {!!icon ? <i className="material-icons">{icon}</i> : null}
-      <span>{label}</span>
-    </button>
-  );
+  if (to) {
+    return (
+      <Link
+        className={`button${outlined ? ' outlined' : ''}${
+          small ? ' small' : ''
+        }`}
+        to={to}
+      >
+        {!!icon ? <i className="material-icons">{icon}</i> : null}
+        <span>{label}</span>
+      </Link>
+    );
+  } else {
+    return (
+      <button
+        className={`button${outlined ? ' outlined' : ''}${
+          small ? ' small' : ''
+        }`}
+      >
+        {!!icon ? <i className="material-icons">{icon}</i> : null}
+        <span>{label}</span>
+      </button>
+    );
+  }
 }
 
 export default Button;
