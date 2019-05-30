@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "la-la-land",
+    "poster": "/images/poster1.jpg",
+    "title": "La La Land",
+    "year": "2016",
+    "genres": ["Musical", "Comedy", "Romance"],
+    "rating": 4.5,
+    "director": ["Damien Chazelle"],
+    "writers": ["Damien Chazelle"],
+    "actors": [
+      "Emma Stone",
+      "Ryan Gosling",
+      "D. A. Wallach",
+      "Kiff VandenHeuvel",
+      "Arthur Horowitz",
+      "John Legend"
+    ],
+    "producers": [
+      "Gary Gilbert",
+      "Marc E. Platt",
+      "Jordan Horowitz",
+      "Fred Berger",
+      "Mike Jackson"
+    ],
+    "rentPrice": 50,
+    "purchasePrice": 150,
+    "description": "La La Land is a 2016 American romantic musical film written and directed by Damien Chazelle. It stars Ryan Gosling as a jazz pianist and Emma Stone as an aspiring actress, who meet and fall in love while pursuing their dreams in Los Angeles. Having been fond of musicals during his time as a drummer, Chazelle first conceptualised the film alongside Justin Hurwitz while attending Harvard University together. Moving to Los Angeles in 2010, Chazelle wrote the screenplay but did not find a studio willing to finance the production without changes to his design. Following the success of his 2014 film Whiplash, the project was picked up by Summit Entertainment. Filming took place in Los Angeles from August to September 2015, with the film's score composed by Hurwitz and the dance choreography by Mandy Moore. La La Land premiered at the 73rd Venice International Film Festival on August 31, 2016, and was released in the United States on December 9, 2016. It grossed $446 million worldwide against a production budget of $30 million."
+  },
+  {
+    "slug": "beauty-and-the-beast",
+    "poster": "/images/one.jpg",
+    "title": "Beauty and the Beast",
+    "year": "2017",
+    "genres": ["Musical", "Family", "Fantasy"],
+    "rating": 3.5,
+    "director": ["Bill Condon"],
+    "writers": ["Stephen Chbosky", "Evan Spiliotopoulos"],
+    "actors": [
+      "Emma Watson",
+      "Dan Stevens",
+      "Luke Evans",
+      "Josh Gad",
+      "Ewan McGregor",
+      "Ian McKellen"
+    ],
+    "producers": ["David Hoberman", "Todd Lieberman"],
+    "rentPrice": 50,
+    "purchasePrice": 150,
+    "description": "The story and characters you know and love come to spectacular life in the live-action adaptation of Disney’s animated classic Beauty and the Beast, a cinematic event celebrating one of the most beloved tales ever told. Experience the fantastic journey of Belle, a bright, beautiful and independent young woman who is taken prisoner by a Beast in his castle. Despite her fears, she befriends the castle’s enchanted staff, and learns to look beyond the Beast’s hideous exterior and realize the kind heart of the true Prince within."
+  },
+  {
+    "slug": "my-fair-lady",
+    "poster": "/images/two.jpg",
+    "title": "My Fair Lady",
+    "year": "1964",
+    "genres": ["Musical", "Comedy", "Romance"],
+    "rating": 4,
+    "director": ["George Cukor"],
+    "writers": ["Alan Jay Lerner"],
+    "actors": [
+      "Audrey Hepburn",
+      "Rex Harrison",
+      "Charles Fredericks",
+      "Gladys Cooper",
+      "Marni Nixon",
+      "Queenie Leonard",
+      "Barbara Pepper",
+      "Marjorie Bennett",
+      "Lillian Kemble-Cooper"
+    ],
+    "producers": ["Jack L. Warner", "James C. Katz"],
+    "rentPrice": 30,
+    "purchasePrice": 100,
+    "description": "My Fair Lady is a 1964 American musical drama film adapted from the Lerner and Loewe eponymous stage musical based on the 1913 stage play Pygmalion by George Bernard Shaw. With a screenplay by Alan Jay Lerner and directed by George Cukor, the film depicts a poor Cockney flower seller named Eliza Doolittle who overhears an arrogant phonetics professor, Henry Higgins, as he casually wagers that he could teach her to speak \"proper\" English, thereby making her presentable in the high society of Edwardian London. The film stars Audrey Hepburn as Eliza Doolittle and Rex Harrison as Henry Higgins, with Stanley Holloway, Gladys Cooper and Wilfrid Hyde-White in supporting roles. A critical and commercial success, it won eight Academy Awards, including Best Picture, Best Actor, and Best Director. In 1998, the American Film Institute named it the 91st greatest American film of all time. In 2006 it was ranked eighth in the AFI's Greatest Movie Musicals list. In 2018, the film was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant.\""
+  }
+]
