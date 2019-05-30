@@ -6,16 +6,23 @@ import Background from '../../background.jpg';
 import poster from '../../poster1.jpg';
 import Ratings from '../../components/ratings/Ratings';
 import Button from '../../components/button/Button';
+import FeaturedTitles from '../../components/titles-row/TitlesRow';
 
-import TitlesRow from '../../components/titles-row/TitlesRow';
-
-import titles from './titles';
+import { Api } from '../../services/api';
 
 const styles = {
   backgroundImage: `url(${Background})`,
 };
 
 class Home extends Component {
+  state = {
+    featured: null,
+  };
+
+  componentDidMount() {
+    Api.getFeatured().then(featured => this.setState({ featured }));
+  }
+
   render() {
     return (
       <div className="Home">
@@ -53,12 +60,22 @@ class Home extends Component {
             </div>
           </div>
         </header>
-        <section className="titles-display">
-          <TitlesRow titles={titles.one} category="Musicals" />
-        </section>
-        <section className="titles-display">
-          <TitlesRow titles={titles.two} category="Suspensful/Mystery" />
-        </section>
+        {this.state.featured ? (
+          <section className="titles-display">
+            <FeaturedTitles
+              titles={this.state.featured.map(i => {
+                return {
+                  image: i.poster,
+                  to: i.slug,
+                };
+              })}
+            />
+          </section>
+        ) : (
+          <section className="data-loader">
+            <div className="loader" />
+          </section>
+        )}
       </div>
     );
   }
