@@ -138,5 +138,77 @@
     "purchasePrice": 100,
     "description": "Annie is a 1982 American musical comedy-drama film based on the Broadway musical of the same name by Charles Strouse, Martin Charnin and Thomas Meehan, which in turn is based on the Little Orphan Annie comic strip created by Harold Gray. Directed by John Huston and written by Carol Sobieski, the film stars Albert Finney, Carol Burnett, Ann Reinking, Tim Curry, Bernadette Peters, Geoffrey Holder, Edward Herrmann and Aileen Quinn as the title character.[3] Set during the Great Depression in 1933, the film tells the story of Annie, an orphan from New York City who is taken in by America's richest billionaire Oliver Warbucks. Principal photography took place for six weeks at Monmouth University in New Jersey. Produced by Ray Stark's Rastar and released by Columbia Pictures on June 18, 1982, Annie received mixed reviews from film critics and grossed $57 million on a $50 million budget. The film was nominated for two Academy Awards for Best Production Design and Best Song Score and its Adaptation. A television film sequel, titled Annie: A Royal Adventure! was released in 1995. In their first film collaboration, Disney and Columbia Pictures produced a made-for-television film version in 1999. Columbia released another film adaptation on December 19, 2014.",
     "featured": true
+  },
+  {
+    "slug": "a-clockwork-orange",
+    "poster": "/images/five.jpg",
+    "title": "A Clockwork Orange",
+    "year": "1971",
+    "genres": ["Drama", "Action"],
+    "rating": 4.5,
+    "director": ["Stanley Kubrick"],
+    "writers": ["Stanley Kubrick"],
+    "actors": [
+      "Malcolm McDowell",
+      "Patrick Magee",
+      "Adrienne Corri",
+      "Miriam Karlin"
+    ],
+    "producers": ["Stanley Kubrick"],
+    "rentPrice": 30,
+    "purchasePrice": 100,
+    "description": "In a futuristic Britain, Alex DeLarge is the leader of a gang of \"droogs\", Georgie, Dim and Pete. One night, after getting intoxicated on drug-laden \"milk-plus\", they engage in an evening of \"ultra-violence\", which includes a fight with a rival gang led by Billyboy. They drive to the country home of writer F. Alexander and beat him to the point of crippling him for life. Alex then rapes Alexander's wife while singing \"Singin' in the Rain\". The next day, while truant from school, Alex is approached by his probation officer Mr P.R. Deltoid, who is aware of Alex's activities and cautions him. Alex's droogs express discontent with petty crime and want more equality and high yield thefts, but Alex asserts his authority by attacking them. Later, Alex invades the home of a wealthy \"cat-lady\" and bludgeons her with a phallic sculpture while his droogs remain outside. On hearing sirens, Alex tries to flee but Dim smashes a bottle in his face, stunning him and leaving him to be arrested by the police. With Alex in custody, Mr Deltoid gloats that the woman he attacked died, making Alex a murderer. He is sentenced to fourteen years in prison.",
+    "featured": true
+  },
+  {
+    "slug": "shutter-island",
+    "poster": "/images/six.jpg",
+    "title": "Shutter Island",
+    "year": "2010",
+    "genres": ["Drama", "Action", "Mystery"],
+    "rating": 4.5,
+    "director": ["Martin Scorsese"],
+    "writers": ["Laeta Kalogridis"],
+    "actors": [
+      "Leonardo DiCaprio",
+      "Mark Ruffalo",
+      "Ben Kingsley",
+      "Michelle Williams",
+      "Emily Mortimer",
+      "Patricia Clarkson",
+      "Max von Sydow"
+    ],
+    "producers": [
+      "Mike Medavoy",
+      "Arnold W. Messer",
+      "Bradley J. Fischer",
+      "Martin Scorsese"
+    ],
+    "rentPrice": 50,
+    "purchasePrice": 150,
+    "description": "In 1954, U.S. Marshals Edward \"Teddy\" Daniels and his new partner Chuck Aule travel to the Ashecliffe Hospital for the criminally insane on Shutter Island in Boston Harbor. They are investigating the disappearance of patient Rachel Solando, who was incarcerated for drowning her three children. Their only clue is a cryptic note found hidden in Solando's room: \"The law of 4; who is 67?\" The two U.S Marshalls arrive just before a massive storm hits the island, preventing their return to the mainland for a few days. Daniels and Aule find the staff confrontational. Dr. John Cawley, the lead psychiatrist, refuses to turn over records, and they learn that Solando's doctor Lester Sheehan left the island on vacation immediately after Solando disappeared. They are given access to the hospital, but they are told that Ward C is off limits and that the lighthouse has already been searched. While being interviewed, one patient secretly writes the word \"RUN\" in Daniels' notepad. Daniels starts to have migraine headaches from the hospital's atmosphere and experiences waking visions of his involvement in the Dachau liberation reprisals. He has disturbing dreams of his wife Dolores Chanal, who was killed in a fire set by a local arsonist named Andrew Laeddis. In one instance, she tells him that Solando is still on the island somewhere—as is Laeddis, who everyone claims was never there to begin with. Daniels later explains to Aule that locating Laeddis was an ulterior personal motive for taking the case.",
+    "featured": true
+  },
+  {
+    "slug": "the-illusionist",
+    "poster": "/images/seven.jpg",
+    "title": "The Illusionist",
+    "year": "2006",
+    "genres": ["Romance", "Mystery"],
+    "rating": 4.5,
+    "director": ["Neil Burger"],
+    "writers": ["Neil Burger"],
+    "actors": ["Edward Norton", "Paul Giamatti", "Jessica Biel"],
+    "producers": [
+      "Brian Koppelman",
+      "David Levien",
+      "Michael London",
+      "Cathy Schulman",
+      "Bob Yari"
+    ],
+    "rentPrice": 50,
+    "purchasePrice": 150,
+    "description": "In Vienna, Austria-Hungary, 1889, a magician named Eisenheim is arrested by Chief Inspector Walter Uhl of the Vienna Police during a magic show involving necromancy. Later, Uhl explains the story of Eisenheim's life to Crown Prince Leopold. Eisenheim was born to a cabinet-maker and became interested in magic after meeting a travelling magician. He also fell in love with Sophie, the Duchess von Teschen, but the two were forbidden to see each other on account of the former being a peasant. They kept meeting secretly but were caught one day and separated by force. Eisenheim proceeded to study magic by travelling the world, and fifteen years later returned to Vienna to perform. During one performance, he encounters the adult Sophie and learns that she is expected to marry the Crown Prince Leopold, who, it is rumored, is brutal towards women and in the past even murdered one. Eisenheim conducts a private show for the Crown Prince and humiliates him in the course of it. In response, he is banned from performing again in Vienna. Eisenheim asks Sophie to flee with him, but Sophie is afraid that they will be hunted down and executed. Sophie also reveals that the Crown Prince is planning a coup d'etat against his elderly father, the Emperor Franz Joseph I.",
+    "featured": true
   }
 ]
