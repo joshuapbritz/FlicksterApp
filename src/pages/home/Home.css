@@ -1,4 +1,8 @@
-.Home {
+.Home .data-loader {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  position: relative;
 }
 
 .Home header {

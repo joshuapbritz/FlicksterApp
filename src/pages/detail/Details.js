@@ -17,7 +17,9 @@ class Detail extends Component {
 
   async componentDidMount() {
     const { name } = this.props.match.params;
-    Api.getTitle(name).then(data => this.setState({ data }));
+    setTimeout(() => {
+      Api.getTitle(name).then(data => this.setState({ data }));
+    }, 3000);
   }
 
   render() {
@@ -25,7 +27,7 @@ class Detail extends Component {
     if (!this.state.data) {
       return (
         <div className="Detail">
-          <h1>Loading</h1>
+          <div className="loader spinner" />
         </div>
       );
     } else {

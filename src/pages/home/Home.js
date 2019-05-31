@@ -20,7 +20,9 @@ class Home extends Component {
   };
 
   componentDidMount() {
-    Api.getFeatured().then(featured => this.setState({ featured }));
+    setTimeout(() => {
+      Api.getFeatured().then(featured => this.setState({ featured }));
+    }, 3000);
   }
 
   render() {
@@ -73,7 +75,7 @@ class Home extends Component {
           </section>
         ) : (
           <section className="data-loader">
-            <div className="loader" />
+            <div className="loader spinner" />
           </section>
         )}
       </div>

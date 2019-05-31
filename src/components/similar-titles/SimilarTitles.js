@@ -1,11 +1,10 @@
 import React from 'react';
-
-import BeautyAndTheBeast from '../../one.jpg';
-import MyFairLady from '../../two.jpg';
-import SinginInTheRain from '../../three.jpg';
-import GreatestShowman from '../../four.jpg';
-
 import './SimilarTitles.css';
+
+const BeautyAndTheBeast = '/images/one.jpg';
+const MyFairLady = '/images/two.jpg';
+const SinginInTheRain = `/images/three.jpg`;
+const GreatestShowman = `/images/four.jpg`;
 
 function SimilarTitles() {
   return (
